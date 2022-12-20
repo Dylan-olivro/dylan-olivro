@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: #d4eecc;
+  margin-top: 10%;
+}
+
+.bloc-page {
+  background-color: #f5f2e0;
+  border: 5px solid #42485b;
+  border-radius: 30px;
+  width: 900px;
+  max-width: 900px;
+  height: 400px;
+  max-height: 400px;
+  transform: rotate(-3deg);
+  color: #42485b;
+  font-family: "Kanit", sans-serif;
+}
+#name {
+  text-align: center;
+  font-size: 4rem;
+  margin: 60px 0 5px 0;
+}
+.about {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto 90px;
+  font-style: italic;
+}
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+}
+.wrap2 li {
+  width: 50%;
+  list-style-type: circle;
+}
+.seal-background {
+  background-color: #e17f67;
+  border-radius: 20px;
+  height: 40px;
+  width: 140px;
+  position: absolute;
+  top: 110px;
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+.seal-point {
+  margin: 0;
+  font-size: 3rem;
+  position: absolute;
+  top: 90px;
+  z-index: 2;
+  transform: rotate(-3deg);
+  color: #42485b;
+}

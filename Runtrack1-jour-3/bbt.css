@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.bloc-page {
+  height: 500px;
+  width: 900px;
+  border: 1px solid black;
+  background: linear-gradient(170deg, #fff 55%, #31394d 55%);
+}
+.info {
+  height: 250px;
+}
+.skill {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  height: 250px;
+}
+#name {
+  color: #31394d;
+  font-size: 4rem;
+  padding: 20px 50px;
+}
+.about {
+  font-size: 1.3rem;
+  width: 50%;
+  padding: 0 50px;
+  font-weight: bold;
+}
+.bloc-list {
+  padding-right: 50px;
+}
+.title {
+  font-size: 2rem;
+}
+li {
+  font-size: 1.3rem;
+}
+#wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40%;
+}
+#wrap li {
+  line-height: 50px;
+}
+.seal-background,
+.seal-point {
+  display: none;
+}
